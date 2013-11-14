@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55D438771834DD9400489661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D438761834DD9400489661 /* Foundation.framework */; };
+		55D438791834DD9400489661 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D438781834DD9400489661 /* CoreGraphics.framework */; };
+		55D4387B1834DD9400489661 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D4387A1834DD9400489661 /* UIKit.framework */; };
+		55D438831834DD9400489661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D438821834DD9400489661 /* main.m */; };
+		55D438871834DD9400489661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D438861834DD9400489661 /* AppDelegate.m */; };
+		55D4388A1834DD9400489661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D438881834DD9400489661 /* Main.storyboard */; };
+		55D4388D1834DD9400489661 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4388C1834DD9400489661 /* ViewController.m */; };
+		55D4388F1834DD9400489661 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D4388E1834DD9400489661 /* Images.xcassets */; };
+		55D438AE1834E18200489661 /* SDScreenshotCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D438AD1834E18200489661 /* SDScreenshotCapture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55D438731834DD9400489661 /* TransparentKeyboardBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransparentKeyboardBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D438761834DD9400489661 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55D438781834DD9400489661 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55D4387A1834DD9400489661 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55D4387E1834DD9400489661 /* TransparentKeyboardBug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransparentKeyboardBug-Info.plist"; sourceTree = "<group>"; };
+		55D438821834DD9400489661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55D438841834DD9400489661 /* TransparentKeyboardBug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransparentKeyboardBug-Prefix.pch"; sourceTree = "<group>"; };
+		55D438851834DD9400489661 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55D438861834DD9400489661 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55D438891834DD9400489661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55D4388B1834DD9400489661 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55D4388C1834DD9400489661 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55D4388E1834DD9400489661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55D438AC1834E18200489661 /* SDScreenshotCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDScreenshotCapture.h; sourceTree = "<group>"; };
+		55D438AD1834E18200489661 /* SDScreenshotCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDScreenshotCapture.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D438701834DD9400489661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D438791834DD9400489661 /* CoreGraphics.framework in Frameworks */,
+				55D4387B1834DD9400489661 /* UIKit.framework in Frameworks */,
+				55D438771834DD9400489661 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55D4386A1834DD9400489661 = {
+			isa = PBXGroup;
+			children = (
+				55D4387C1834DD9400489661 /* TransparentKeyboardBug */,
+				55D438751834DD9400489661 /* Frameworks */,
+				55D438741834DD9400489661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55D438741834DD9400489661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D438731834DD9400489661 /* TransparentKeyboardBug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D438751834DD9400489661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55D438761834DD9400489661 /* Foundation.framework */,
+				55D438781834DD9400489661 /* CoreGraphics.framework */,
+				55D4387A1834DD9400489661 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55D4387C1834DD9400489661 /* TransparentKeyboardBug */ = {
+			isa = PBXGroup;
+			children = (
+				55D438881834DD9400489661 /* Main.storyboard */,
+				55D438851834DD9400489661 /* AppDelegate.h */,
+				55D438861834DD9400489661 /* AppDelegate.m */,
+				55D4388B1834DD9400489661 /* ViewController.h */,
+				55D4388C1834DD9400489661 /* ViewController.m */,
+				55D4388E1834DD9400489661 /* Images.xcassets */,
+				55D4387D1834DD9400489661 /* Supporting Files */,
+				55D438AB1834E18200489661 /* SDScreenshotCapture */,
+			);
+			path = TransparentKeyboardBug;
+			sourceTree = "<group>";
+		};
+		55D4387D1834DD9400489661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55D4387E1834DD9400489661 /* TransparentKeyboardBug-Info.plist */,
+				55D438821834DD9400489661 /* main.m */,
+				55D438841834DD9400489661 /* TransparentKeyboardBug-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55D438AB1834E18200489661 /* SDScreenshotCapture */ = {
+			isa = PBXGroup;
+			children = (
+				55D438AC1834E18200489661 /* SDScreenshotCapture.h */,
+				55D438AD1834E18200489661 /* SDScreenshotCapture.m */,
+			);
+			path = SDScreenshotCapture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D438721834DD9400489661 /* TransparentKeyboardBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D438A51834DD9400489661 /* Build configuration list for PBXNativeTarget "TransparentKeyboardBug" */;
+			buildPhases = (
+				55D4386F1834DD9400489661 /* Sources */,
+				55D438701834DD9400489661 /* Frameworks */,
+				55D438711834DD9400489661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransparentKeyboardBug;
+			productName = TransparentKeyboardBug;
+			productReference = 55D438731834DD9400489661 /* TransparentKeyboardBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D4386B1834DD9400489661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Shiny Development";
+			};
+			buildConfigurationList = 55D4386E1834DD9400489661 /* Build configuration list for PBXProject "TransparentKeyboardBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55D4386A1834DD9400489661;
+			productRefGroup = 55D438741834DD9400489661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D438721834DD9400489661 /* TransparentKeyboardBug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55D438711834DD9400489661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D4388F1834DD9400489661 /* Images.xcassets in Resources */,
+				55D4388A1834DD9400489661 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D4386F1834DD9400489661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D4388D1834DD9400489661 /* ViewController.m in Sources */,
+				55D438AE1834E18200489661 /* SDScreenshotCapture.m in Sources */,
+				55D438871834DD9400489661 /* AppDelegate.m in Sources */,
+				55D438831834DD9400489661 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55D438881834DD9400489661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D438891834DD9400489661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55D438A31834DD9400489661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55D438A41834DD9400489661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55D438A61834DD9400489661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransparentKeyboardBug/TransparentKeyboardBug-Prefix.pch";
+				INFOPLIST_FILE = "TransparentKeyboardBug/TransparentKeyboardBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55D438A71834DD9400489661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransparentKeyboardBug/TransparentKeyboardBug-Prefix.pch";
+				INFOPLIST_FILE = "TransparentKeyboardBug/TransparentKeyboardBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D4386E1834DD9400489661 /* Build configuration list for PBXProject "TransparentKeyboardBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D438A31834DD9400489661 /* Debug */,
+				55D438A41834DD9400489661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D438A51834DD9400489661 /* Build configuration list for PBXNativeTarget "TransparentKeyboardBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D438A61834DD9400489661 /* Debug */,
+				55D438A71834DD9400489661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55D4386B1834DD9400489661 /* Project object */;
+}
